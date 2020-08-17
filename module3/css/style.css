@@ -2,13 +2,24 @@
 *{
 	box-sizing: border-box;
 }
+#header-nav{
+	background-color: #E7E7D7;
+}
+a{
+	float:left;
+	position:relative;
+	top:4px;
+	left:400px;
+}
+
 h1{
 	color:#DDFFff;
 	text-align: center;
 }
 body{
 	background-color: #217788;
-	margin:2%;
+	margin:0;
+	padding:12px;
 }
 p{
 	color:white;
@@ -19,45 +30,54 @@ h2{
 	text-align: center;
 	color:#FFDDE0;
 }
+h4{
+	color:#55ddff;
+}
 #item1{
 text-align: center;
-color:#5578DD;
+color:brown;
 }
 #item2{
 	text-align: center;
-	color:#5577DD;
+	color:brown;
 }
 #item3{
 	text-align: center;
-	color:#5577ED;
+	color:brown;
 }
 div{
 	margin:1%;
 	height:auto;
-	margin-left:1%
-	margin-right:1%;
+	padding:2px;
 }
 .row{
 	width:100%;
 }
-@media (min-width:993px){
+@media (min-width:992px){
+	.navbar-toggle{
+	display:none;}
  .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
 float:left;
  border:1px solid black;}
 .col-lg-3{
-	width:100%;
+	
+	width:40%;
 	
 }
 .col-lg-3{
-	width:100%;
+	
+	width:40%;
 	
 }
 .col-lg-3{
-	width:100%;
+	
+	width:40%;
 
 }
 }
 @media (min-width:767px) and (max-width:992px) {
+	.navbar-toggle{
+	display:none;}
  .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
 float:left;
  border:1px solid black;}
@@ -66,44 +86,58 @@ float:left;
 	
 }
 .col-md-4{
+	
 	width:50%;
 	
 }
-.col-md-10{
-	width:95%;
-
-}
-
-}
-.col-lg-3{
+.col-md-4{
+	
 	width:100%;
+
+}
+
 }
 
 @media (max-width:767px){
+	a{
+	float:left;
+	position:relative;
+	top:4px;
+	left:4px;
+}
  .col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12{
 float:left;
  border:1px solid black;}
-.col-sm-4{
-	width:90%;
+ .navbar-nav{
+ display:show;
+ }
+.col-sm-6{
+	position:relative;
+	width:100%;
 	
 }
-.col-sm-4{
-	width:90%;
+.col-sm-6{
+	position:relative;
+	width:100%;
 	
 }
-.col-sm-4{
-	width:90%;
+.col-sm-6{
+	position:relative;
+	width:100%;
 
 }
 
 }
 #chick{
 	background-color: gray;
+	opacity:0.9;
 }
 #bee{
 	background-color: gray;
+	opacity:0.9;
 }
 #sue{
 	background-color: gray;
+	opacity:0.9;
 }
 
